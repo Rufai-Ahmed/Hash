@@ -36,14 +36,14 @@ const Circle = styled.div`
   width: 30px;
   height: 30px;
   border-radius: 30px;
-  background-color: black;
+  background-color: white;
 `;
 
 const Toggle = styled.div<{ tog: string }>`
-  width: 70px;
+  width: 60px;
   height: 40px;
   border-radius: 30px;
-  background-color: grey;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: ${({ tog }) => tog};
